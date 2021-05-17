@@ -1,0 +1,1 @@
+web: gunicorn MedQuestions.wsgi --log-file -

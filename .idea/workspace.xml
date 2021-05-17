@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9907e4d4-b688-4159-9aa5-1e6b29bfaa99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedQuestions/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MedQuestions/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621102511492</updated>
       <workItem from="1621102526893" duration="24486000" />
-      <workItem from="1621244791919" duration="9087000" />
+      <workItem from="1621244791919" duration="9372000" />
     </task>
     <servers />
   </component>
@@ -96,10 +97,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621103421987">
+    <state x="488" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621257101474">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621103421987" />
+    <state x="488" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621257101474" />
+    <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621257118341">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621257118341" />
     <state width="2004" height="352" key="GridCell.Tab.0.bottom" timestamp="1621254807922">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
