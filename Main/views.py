@@ -134,7 +134,7 @@ def main(request):
             user = authenticate(username=request.POST['username'], password=request.POST['password'])
             if user is not None:
                 login(request, user)
-                return HttpResponseRedirect('/')
+            return HttpResponseRedirect('/')
         surname = request.POST['surname'].strip()
         name = request.POST['name'].strip()
         middle_name = request.POST['middle_name'].strip()
