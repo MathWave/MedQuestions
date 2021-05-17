@@ -199,12 +199,9 @@ def results(request):
             role: cur_roles.count(role)
             for role in set(cur_roles)
         }
-        print(cur_roles)
         graph_data['Роли в группе ' + group] = '?' + '&'.join([f'{role}={data[role]}' for role in cur_roles])
     vals = [str((att.temperament, att.role)) for att in attempts]
     keys = set(vals)
     graph_data['Общая статистика'] = '?' + '&'.join([f'{val}={vals.count(val)}' for val in keys])
     context['graph_data'] = graph_data
-    for key in graph_data.keys():
-        print(key, graph_data[key])
     return render(request, 'results.html', context)

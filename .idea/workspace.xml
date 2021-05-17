@@ -3,6 +3,476 @@
   <component name="ChangeListManager">
     <list default="true" id="9907e4d4-b688-4159-9aa5-1e6b29bfaa99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2-py3.7-nspkg.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_AMSFONTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_BAKOMA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_CARLOGO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_COLORBREWER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_JSXTOOLS_RESIZE_OBSERVER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_QHULL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_QT4_EDITOR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_SOLARIZED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_STIX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/LICENSE_YORICK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/namespace_packages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-3.4.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_animation_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_api/deprecation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_c_internal_utils.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_cm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_cm_listed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_color_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_constrained_layout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_contour.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_image.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_internal_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_layoutgrid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_mathtext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_mathtext_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_path.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_pylab_helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_qhull.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_text_layout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_tri.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_ttconv.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/afm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/animation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/artist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/axes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/axes/_axes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/axes/_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/axes/_secondary_axes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/axes/_subplots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/axis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backend_bases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backend_managers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backend_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/_backend_agg.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/_backend_pdf_ps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/_backend_tk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/_macosx.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/_tkagg.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_agg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_cairo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_gtk3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_gtk3agg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_gtk3cairo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_macosx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_mixed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_nbagg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_pdf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_pgf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_ps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_qt4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_qt4agg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_qt4cairo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_qt5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_qt5agg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_qt5cairo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_svg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_tkagg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_tkcairo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_webagg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_webagg_core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_wx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_wxagg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/backend_wxcairo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/qt_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/qt_editor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/qt_editor/_formlayout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/qt_editor/_formsubplottool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/qt_editor/figureoptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/qt_editor/formsubplottool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/all_figures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/css/boilerplate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/css/fbm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/css/mpl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/css/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/ipython_inline_figure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/js/mpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/js/mpl_tornado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/js/nbagg_mpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/nbagg_uat.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/backends/web_backend/single_figure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/bezier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/blocking_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/category.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/cbook/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/cbook/deprecation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/cm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/colorbar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/colors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/compat/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/container.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/contour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/dates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/docstring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/dviread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/figure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/font_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/fontconfig_pattern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/ft2font.cpython-37m-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/gridspec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/hatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/legend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/legend_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/lines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mathtext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mlab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/cmex10.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/cmmi10.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/cmr10.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/cmsy10.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/cmtt10.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pagd8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pagdo8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pagk8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pagko8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pbkd8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pbkdi8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pbkl8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pbkli8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pcrb8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pcrbo8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pcrr8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pcrro8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvb8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvb8an.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvbo8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvbo8an.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvl8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvlo8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvr8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvr8an.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvro8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/phvro8an.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pncb8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pncbi8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pncr8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pncri8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pplb8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pplbi8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pplr8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pplri8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/psyr.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/ptmb8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/ptmbi8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/ptmr8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/ptmri8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/putb8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/putbi8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/putr8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/putri8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pzcmi8a.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/afm/pzdr.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-Bold.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-BoldOblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-Oblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Courier.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-Bold.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-BoldOblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-Oblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Symbol.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Bold.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Times-BoldItalic.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Italic.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Roman.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/ZapfDingbats.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/LICENSE_STIX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/cmb10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/cmex10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/cmr10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/cmss10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/back-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/back.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/back_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/filesave-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/filesave.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/filesave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/filesave.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/filesave_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/forward-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/forward.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/forward_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/hand.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/hand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/help-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/help.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/help_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/home-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/home.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/home_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/matplotlib.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/matplotlib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/matplotlib.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/matplotlib_128.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/matplotlib_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/move-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/move.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/move.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/move.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/move_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/qt4_editor_options.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/qt4_editor_options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/qt4_editor_options.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/qt4_editor_options_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/subplots-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/subplots.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/subplots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/subplots.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/subplots_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/zoom_to_rect-symbolic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/zoom_to_rect.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/zoom_to_rect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/zoom_to_rect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/images/zoom_to_rect_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/matplotlibrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/plot_directive/plot_directive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/axes_grid/bivariate_normal.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/data_x_x2_x3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/eeg.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/embedding_in_wx3.xrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/goog.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/grace_hopper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/jacksboro_fault_dem.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/membrane.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/msft.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/percent_bachelors_degrees_women_usa.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/s1045.ima.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/sample_data/topobathy.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/Solarize_Light2.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/bmh.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/classic.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/dark_background.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/fast.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/fivethirtyeight.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/ggplot.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/grayscale.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-bright.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-colorblind.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-dark-palette.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-dark.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-darkgrid.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-deep.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-muted.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-notebook.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-paper.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-pastel.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-poster.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-talk.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-ticks.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-white.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn-whitegrid.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/seaborn.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/mpl-data/stylelib/tableau-colorblind10.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/offsetbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/patches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/patheffects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/projections/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/projections/geo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/projections/polar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/pylab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/pyplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/quiver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/rcsetup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/sankey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/scale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/sphinxext/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/sphinxext/mathmpl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/sphinxext/plot_directive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/spines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/stackplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/streamplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/style/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/style/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/Duration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/Epoch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/EpochConverter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/StrConverter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/UnitDbl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/UnitDblConverter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/UnitDblFormatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/jpl_units/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/testing/widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_afm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_agg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_agg_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_animation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_arrow_patches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_artist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_axes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_bases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_cairo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_gtk3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_nbagg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_pdf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_pgf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_ps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_qt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_svg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_tk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backend_webagg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_backends_interactive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_bbox_tight.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_category.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_cbook.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_colorbar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_colors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_compare_images.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_constrainedlayout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_container.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_contour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_cycles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_dates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_determinism.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_dviread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_figure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_font_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_fontconfig_pattern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_gridspec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_legend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_lines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_marker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_mathtext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_matplotlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_mlab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_offsetbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_patches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_patheffects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_png.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_polar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_preprocess_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_pyplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_quiver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_rcparams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_sankey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_scale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_simplification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_skew.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_sphinxext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_spines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_streamplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_style.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_subplots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_texmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_ticker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_tightlayout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_transforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_triangulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_ttconv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_type1font.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_units.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_usetex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tests/test_widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/texmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/textpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/ticker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tight_bbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tight_layout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/transforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/triangulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/tricontour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/trifinder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/triinterpolate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/tripcolor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/triplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/trirefine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/tri/tritools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/ttconv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/type1font.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/units.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +558,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621102511492</updated>
       <workItem from="1621102526893" duration="24486000" />
-      <workItem from="1621244791919" duration="9897000" />
+      <workItem from="1621244791919" duration="11019000" />
     </task>
     <servers />
   </component>
@@ -104,29 +574,29 @@
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621257118341" />
-    <state width="2004" height="352" key="GridCell.Tab.0.bottom" timestamp="1621254807922">
+    <state width="2004" height="352" key="GridCell.Tab.0.bottom" timestamp="1621264618868">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="352" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1621227787386" />
-    <state width="2004" height="352" key="GridCell.Tab.0.bottom/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621254807922" />
+    <state width="2004" height="352" key="GridCell.Tab.0.bottom/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621264618868" />
     <state width="2004" height="436" key="GridCell.Tab.0.bottom/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782393" />
-    <state width="2004" height="352" key="GridCell.Tab.0.center" timestamp="1621254807921">
+    <state width="2004" height="352" key="GridCell.Tab.0.center" timestamp="1621264618867">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="352" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1621227787385" />
-    <state width="2004" height="352" key="GridCell.Tab.0.center/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621254807921" />
+    <state width="2004" height="352" key="GridCell.Tab.0.center/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621264618867" />
     <state width="2004" height="436" key="GridCell.Tab.0.center/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782392" />
-    <state width="2004" height="352" key="GridCell.Tab.0.left" timestamp="1621254807920">
+    <state width="2004" height="352" key="GridCell.Tab.0.left" timestamp="1621264618866">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="352" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1621227787384" />
-    <state width="2004" height="352" key="GridCell.Tab.0.left/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621254807920" />
+    <state width="2004" height="352" key="GridCell.Tab.0.left/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621264618866" />
     <state width="2004" height="436" key="GridCell.Tab.0.left/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782391" />
-    <state width="2004" height="352" key="GridCell.Tab.0.right" timestamp="1621254807921">
+    <state width="2004" height="352" key="GridCell.Tab.0.right" timestamp="1621264618867">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state width="2004" height="352" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1621227787385" />
-    <state width="2004" height="352" key="GridCell.Tab.0.right/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621254807921" />
+    <state width="2004" height="352" key="GridCell.Tab.0.right/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621264618867" />
     <state width="2004" height="436" key="GridCell.Tab.0.right/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782393" />
     <state width="2004" height="436" key="GridCell.Tab.1.bottom" timestamp="1621243762434">
       <screen x="0" y="0" width="2048" height="1280" />
