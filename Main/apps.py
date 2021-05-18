@@ -1,3 +1,8 @@
+# apps.py
+# Created by Egor Matveev
+# 16.05.2021
+
+
 from django.apps import AppConfig
 
 

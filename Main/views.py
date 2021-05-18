@@ -1,3 +1,8 @@
+# views.py
+# Created by Egor Matveev
+# 16.05.2021
+
+
 from os import remove
 
 from django.contrib.auth import authenticate, login

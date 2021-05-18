@@ -1,5 +1,7 @@
 """MedQuestions URL Configuration
-
+# urls.py
+# Created by Egor Matveev
+# 16.05.2021
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
 Examples:

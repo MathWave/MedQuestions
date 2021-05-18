@@ -1,3 +1,8 @@
+# sync.py
+# Created by Egor Matveev
+# 16.05.2021
+
+
 import threading
 import time
 

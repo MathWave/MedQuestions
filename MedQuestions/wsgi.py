@@ -1,6 +1,8 @@
 """
 WSGI config for MedQuestions project.
-
+# wsgi.py
+# Created by Egor Matveev
+# 16.05.2021
 It exposes the WSGI callable as a module-level variable named ``application``.
 
 For more information on this file, see

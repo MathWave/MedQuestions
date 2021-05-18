@@ -1,3 +1,8 @@
+# models.py
+# Created by Egor Matveev
+# 16.05.2021
+
+
 from django.db import models
 
 
