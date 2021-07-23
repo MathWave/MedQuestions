@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <p style="font-size: 25px;">Тестирование</p><br>
+    <p style="font-size: 40px;"><b>Определение темперамента и командных ролей</b></p><br>
+    <div style="background-color: rgba(0, 84, 166, 0.35); border-radius: 30px; width: 1196px; height: 364px;">
+        <b style="margin-top: 40px; margin-left: 40px; font-size: 40px;">Информация о студенте</b><br>
+        <form method="POST" id="user_form">
+            {% csrf_token %}
+            <input type="text" placeholder="ФИО" name="name" style="margin-left: 40px; margin-top: 25px; background-color: rgba(0, 84, 166, 0.35); border-color: black; width: 1097px; height: 57px; border-radius: 40px; padding-left: 20px;"><br>
+            <input type="text" placeholder="Класс" name="grade" style="margin-left: 40px; margin-top: 25px; background-color: rgba(0, 84, 166, 0.35); border-color: black; width: 1097px; height: 57px; border-radius: 40px; padding-left: 20px;"><br>
+            <input type="text" placeholder="Группа" name="group" style="margin-left: 40px; margin-top: 25px; background-color: rgba(0, 84, 166, 0.35); border-color: black; width: 1097px; height: 57px; border-radius: 40px; padding-left: 20px;"><br>
+        </form>
+    </div>
+    <button type="submit" form="user_form" style="background-color: rgba(0, 84, 166, 0.59); border-radius: 30px; width: 200px; height: 50px; margin-left: 996px; margin-top: 20px;">Пройти тест...</button>
+{% endblock %}

@@ -6,17 +6,18 @@
 from os import remove
 
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from Main.sync import synchronized_method
 import matplotlib.pyplot as plt
 
 # Create your views here.
-from Main.models import Question, FormAnswer, Attempt
+from Main.models import Question, FormAnswer, Attempt, Temperament
 
 
 def calc_info(attempt, answers):
-    temp_ans = [ans.answer for ans in answers if not ans.question.is_role]
+    temp_ans = [ans.answer for ans in answers if not ans.question.block]
     a = ['Да', 'Нет']
     temp_ans = [
         1 if temp_ans[0] == a[0] else 0,
@@ -85,24 +86,26 @@ def calc_info(attempt, answers):
            temp_ans[47] + temp_ans[53]
     neurotism = sum(temp_ans) - extraversion - liar
     if extraversion > 12 and neurotism > 13:
-        attempt.temperament = 'Сангвинник'
+        attempt.temperament = Temperament.objects.get(name='Сангвинник')
     elif extraversion > 12 and neurotism < 9:
-        attempt.temperament = 'Холерик'
+        attempt.temperament = Temperament.objects.get(name='Холерик')
     elif extraversion < 12 and neurotism > 13:
-        attempt.temperament = 'Флегматик'
+        attempt.temperament = Temperament.objects.get(name='Флегматик')
     elif extraversion < 12 and neurotism < 9:
-        attempt.temperament = 'Меланхолик'
+        attempt.temperament = Temperament.objects.get(name='Меланхолик')
     elif extraversion == 12 and neurotism <= 9:
-        attempt.temperament = 'Меланхолик-Холерик'
+        attempt.temperament = Temperament.objects.get(name='Меланхолик-Холерик')
     elif extraversion == 12 and neurotism >= 13:
-        attempt.temperament = 'Флегматик-Сангвиник'
+        attempt.temperament = Temperament.objects.get(name='Флегматик-Сангвиник')
     elif extraversion >= 12 and 12 <= neurotism <= 19:
-        attempt.temperament = 'Сангвиник-Холерик'
+        attempt.temperament = Temperament.objects.get(name='Холерик-Сангвинник')
     elif extraversion <= 12 and 9 <= neurotism <= 12:
-        attempt.temperament = 'Меланхолик-Флегматик'
+        attempt.temperament = Temperament.objects.get(name='Меланхолик-Флегматик')
     else:
-        attempt.temperament = 'Неопределенно'
-    role_ans = [ans.answer for ans in answers if ans.question.is_role]
+        attempt.temperament = Temperament.objects.get(name='Неопределенно')
+    attempt.save()
+    return
+    role_ans = [ans.answer for ans in answers if ans.question.block]
     coordinator = role_ans[3] + role_ans[9] + role_ans[16] + role_ans[31] + role_ans[37] + role_ans[42] + role_ans[54]
     former = role_ans[5] + role_ans[12] + role_ans[18] + role_ans[25] + role_ans[35] + role_ans[46] + role_ans[48]
     generator = role_ans[2] + role_ans[14] + role_ans[19] + role_ans[28] + role_ans[39] + role_ans[40] + role_ans[53]
@@ -135,38 +138,73 @@ def calc_info(attempt, answers):
 
 def main(request):
     if request.method == 'POST':
-        if 'username' in request.POST.keys():
-            user = authenticate(username=request.POST['username'], password=request.POST['password'])
-            if user is not None:
-                login(request, user)
-            return HttpResponseRedirect('/')
-        surname = request.POST['surname'].strip()
-        name = request.POST['name'].strip()
-        middle_name = request.POST['middle_name'].strip()
-        group = request.POST['group'].strip()
-        data = {key: request.POST[key] for key in request.POST.keys()}
-        attempt = Attempt.objects.create(
-            surname=surname,
-            name=name,
-            middle_name=middle_name,
-            group=group
+        username = 'someusername' + str(len(User.objects.all()))
+        user = User.objects.create_user(username, username + '@mail.ru', 'somepassword')
+        login(request, user)
+        user.attempt = Attempt.objects.create(
+            name=request.POST['name'],
+            grade=request.POST['grade'],
+            group=request.POST['group'],
+            user=user
         )
+        user.save()
+        return HttpResponseRedirect('/about_temperament')
+    return render(request, 'enter.html')
+
+
+def about_temperament(request):
+    return render(request, 'about_temperament.html')
+
+
+def temperament_test(request):
+    if request.method == 'POST':
+        data = {key: request.POST[key] for key in request.POST.keys()}
         answers = [
             FormAnswer.objects.create(
-                attempt=attempt,
+                attempt=request.user.attempt,
                 question_id=int(key.split('_')[1]),
                 answer=data[key]
             )
             for key in data.keys() if 'answer' in key
         ]
-        calc_info(attempt, answers)
-        return HttpResponseRedirect('/?success=true')
-    return render(request, 'main.html', {
-        'temp_questions': Question.objects.filter(is_role=False),
-        'role_questions': Question.objects.filter(is_role=True),
-        'login': request.user.is_authenticated,
-        'success': 'success' in request.GET.keys()
+        calc_info(request.user.attempt, answers)
+        return HttpResponseRedirect('/temperament_result')
+    return render(request, 'temperament_test.html', {
+        'questions': Question.objects.filter(block=None)
     })
+
+
+def temperament_result(request):
+    return render(request, 'temperament_result.html')
+
+
+def about_role(request):
+    return render(request, 'about_role.html')
+
+
+def role_test(request):
+    n = int(request.GET['n'])
+    if request.method == 'POST':
+        data = {key: request.POST[key] for key in request.POST.keys()}
+        for key in data.keys():
+            if 'answer' in key:
+                FormAnswer.objects.create(
+                    attempt=request.user.attempt,
+                    question_id=int(key.split('_')[1]),
+                    answer=data[key]
+                )
+        if n != 7:
+            return HttpResponseRedirect('/role_test?n=' + str(n + 1))
+        else:
+            return HttpResponseRedirect('/end')
+    return render(request, 'role_test.html', {
+        'questions': Question.objects.filter(block=n),
+        'n': n
+    })
+
+
+def end(request):
+    return render(request, 'end.html')
 
 
 @synchronized_method

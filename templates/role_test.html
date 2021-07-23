@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block scripts %}
+    function click_ans(but, ques_id) {
+        for (elem of document.getElementsByClassName('ans')) {
+            if (elem.id.startsWith('var_' + ques_id)) {
+                elem.style = "background-color: rgba(0, 84, 166, 0.29); border-radius: 20px;";
+            }
+        }
+        but.style = "background-color: rgba(0, 84, 166, 0.7); border-radius: 20px;";
+        var nodeId = 'answer_' + ques_id.toString();
+        console.log(nodeId);
+        var element = document.getElementById(nodeId);
+        console.log(element);
+        element.value = but.innerText;
+    }
+
+    function get_res(but) {
+        var sum = 0;
+        for (elem of document.getElementsByClassName('ans_input')) {
+            if (elem.value == "") {
+                alert("Не на все вопросы дан ответ");
+                return;
+            }
+            sum += parseInt(elem.value);
+        }
+        if (sum != 10) {
+            alert("Сумма ответов не равна 10");
+            return;
+        }
+        but.form.submit();
+    }
+{% endblock %}
+
+{% block content %}
+    <div style="background-color: rgba(0, 84, 166, 0.06); border-radius: 30px; width: 1196px; padding: 30px;">
+        <h4>Определение командной роли, Блок {{ n }}</h4>
+        <form method="POST" id="ans_form">
+            {% csrf_token %}
+        </form>
+        {% for question in questions %}
+            <input class="ans_input" type="hidden" form="ans_form" id="answer_{{ question.id }}" name="answer_{{ question.id }}">
+            <b>{{ question.text }}</b>
+            <table style="margin-bottom: 20px;">
+                <tr>
+                    {% for answer in question.answers %}
+                        <td>
+                            <button class="ans" id="var_{{ question.id }}_{{ answer }}" style="background-color: rgba(0, 84, 166, 0.29); border-radius: 20px;" onclick="click_ans(this, {{ question.id }})">{{ answer }}</button>
+                        </td>
+                    {% endfor %}
+                </tr>
+            </table>
+        {% endfor %}
+        <button type="button" form="ans_form" style="background-color: rgba(0, 84, 166, 0.59); border-radius: 30px; width: 300px; height: 50px;" onclick="get_res(this)">{% if n != 7 %}К следующему блоку{% else %}Завершить тест{% endif %}</button>
+    </div>
+{% endblock %}

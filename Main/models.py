@@ -1,15 +1,22 @@
 # models.py
 # Created by Egor Matveev
 # 16.05.2021
-
-
+from django.contrib.auth.models import User
 from django.db import models
+
+
+class Temperament(models.Model):
+    name = models.TextField()
+    description = models.TextField()
+
+    def __str__(self):
+        return self.name
 
 
 class Question(models.Model):
     text = models.TextField(default='')
     variants = models.TextField(default='')
-    is_role = models.BooleanField(default=False)
+    block = models.IntegerField(null=True)
 
     @property
     def answers(self):
@@ -22,15 +29,16 @@ class Question(models.Model):
 
 
 class Attempt(models.Model):
-    surname = models.TextField(default='')
     name = models.TextField(default='')
-    middle_name = models.TextField(default='')
+    grade = models.IntegerField(null=True)
     group = models.TextField(default='')
-    temperament = models.TextField(default='')
+    temperament = models.ForeignKey(Temperament, on_delete=models.SET_NULL, null=True)
     role = models.TextField(default='')
+    user = models.OneToOneField(User, on_delete=models.CASCADE, null=True)
+    state = models.IntegerField(default=0)
 
     def __str__(self):
-        return f'{self.group} | {self.surname} {self.name} {self.middle_name} | {self.temperament} {self.role}'
+        return f'{self.name} | {self.temperament} | {self.role}'
 
     @property
     def answers(self):
