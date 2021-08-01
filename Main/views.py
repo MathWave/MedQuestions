@@ -105,7 +105,10 @@ def calc_info(attempt, answers):
         attempt.temperament = Temperament.objects.get(name='Неопределенно')
     attempt.save()
     return
-    role_ans = [ans.answer for ans in answers if ans.question.block]
+
+
+def calc_role(attempt, answers):
+    role_ans = [ans.answer for ans in answers]
     coordinator = role_ans[3] + role_ans[9] + role_ans[16] + role_ans[31] + role_ans[37] + role_ans[42] + role_ans[54]
     former = role_ans[5] + role_ans[12] + role_ans[18] + role_ans[25] + role_ans[35] + role_ans[46] + role_ans[48]
     generator = role_ans[2] + role_ans[14] + role_ans[19] + role_ans[28] + role_ans[39] + role_ans[40] + role_ans[53]
@@ -196,6 +199,7 @@ def role_test(request):
         if n != 7:
             return HttpResponseRedirect('/role_test?n=' + str(n + 1))
         else:
+            calc_role(Attempt.objects.get(user=request.user), reversed(FormAnswer.objects.filter(question__block__isnull=False)))
             return HttpResponseRedirect('/end')
     return render(request, 'role_test.html', {
         'questions': Question.objects.filter(block=n),
@@ -221,7 +225,7 @@ def plot(request):
 
 
 def results(request):
-    if not request.user.is_authenticated:
+    if not request.user.is_superuser:
         return HttpResponseRedirect('/')
     attempts = Attempt.objects.all()
     context = {
@@ -230,7 +234,7 @@ def results(request):
     graph_data = {}
     groups = list(set([attempt.group for attempt in attempts]))
     for group in groups:
-        cur_temps = [attempt.temperament for attempt in [a for a in attempts if a.group == group]]
+        cur_temps = [attempt.temperament.name for attempt in [a for a in attempts if a.group == group]]
         data = {
             temp: cur_temps.count(temp)
             for temp in set(cur_temps)

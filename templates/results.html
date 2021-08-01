@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3>Результаты тестирования</h3>
+    <table class="table">
+        <thead>
+            <th scope="col">ФИО</th>
+            <th scope="col">Класс</th>
+            <th scope="col">Группа</th>
+            <th scope="col">Темперамент</th>
+            <th scope="col">Роль</th>
+        </thead>
+        <tbody>
+            {% for attempt in attempts %}
+                <tr>
+                    <td>{{ attempt.name }}</td>
+                    <td>{{ attempt.grade }}</td>
+                    <td>{{ attempt.group }}</td>
+                    <td>{{ attempt.temperament.name }}</td>
+                    <td>{{ attempt.role }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <hr><hr>
+    <h2>Аналитика</h2>
+    {% for key, value in graph_data.items %}
+        <hr>
+        <h4>{{ key }}</h4><br>
+        <img src="/plot{{ value }}">
+    {% endfor %}
+{% endblock %}

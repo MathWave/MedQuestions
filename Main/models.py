@@ -30,7 +30,7 @@ class Question(models.Model):
 
 class Attempt(models.Model):
     name = models.TextField(default='')
-    grade = models.IntegerField(null=True)
+    grade = models.TextField(default='')
     group = models.TextField(default='')
     temperament = models.ForeignKey(Temperament, on_delete=models.SET_NULL, null=True)
     role = models.TextField(default='')
