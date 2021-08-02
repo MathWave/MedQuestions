@@ -36,6 +36,7 @@ class Attempt(models.Model):
     role = models.TextField(default='')
     user = models.OneToOneField(User, on_delete=models.CASCADE, null=True)
     state = models.IntegerField(default=0)
+    finished = models.BooleanField(default=False)
 
     def __str__(self):
         return f'{self.name} | {self.temperament} | {self.role}'

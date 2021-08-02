@@ -136,6 +136,7 @@ def calc_role(attempt, answers):
         attempt.role = 'Реализатор / Доводчик'
     else:
         attempt.role = 'Неопределенно'
+    attempt.finished = True
     attempt.save()
 
 
@@ -162,15 +163,15 @@ def about_temperament(request):
 def temperament_test(request):
     if request.method == 'POST':
         data = {key: request.POST[key] for key in request.POST.keys()}
-        answers = [
-            FormAnswer.objects.create(
-                attempt=request.user.attempt,
-                question_id=int(key.split('_')[1]),
-                answer=data[key]
-            )
-            for key in data.keys() if 'answer' in key
-        ]
-        calc_info(request.user.attempt, answers)
+        for key in data:
+            if 'answer' in key:
+                fa, _ = FormAnswer.objects.get_or_create(
+                    attempt=request.user.attempt,
+                    question_id=int(key.split('_')[1])
+                )
+                fa.answer = data[key]
+                fa.save()
+        calc_info(request.user.attempt, FormAnswer.objects.filter(attempt=request.user.attempt, question__block__isnull=True))
         return HttpResponseRedirect('/temperament_result')
     return render(request, 'temperament_test.html', {
         'questions': Question.objects.filter(block=None)
@@ -191,15 +192,17 @@ def role_test(request):
         data = {key: request.POST[key] for key in request.POST.keys()}
         for key in data.keys():
             if 'answer' in key:
-                FormAnswer.objects.create(
+                fa, _ = FormAnswer.objects.get_or_create(
                     attempt=request.user.attempt,
-                    question_id=int(key.split('_')[1]),
-                    answer=data[key]
+                    question_id=int(key.split('_')[1])
                 )
+                fa.answer = data[key]
+                fa.save()
         if n != 7:
             return HttpResponseRedirect('/role_test?n=' + str(n + 1))
         else:
-            calc_role(Attempt.objects.get(user=request.user), reversed(FormAnswer.objects.filter(question__block__isnull=False)))
+            attempt = request.user.attempt
+            calc_role(attempt, reversed(FormAnswer.objects.filter(attempt=attempt, question__block__isnull=False)))
             return HttpResponseRedirect('/end')
     return render(request, 'role_test.html', {
         'questions': Question.objects.filter(block=n),
@@ -227,9 +230,9 @@ def plot(request):
 def results(request):
     if not request.user.is_superuser:
         return HttpResponseRedirect('/')
-    attempts = Attempt.objects.all()
+    attempts = Attempt.objects.filter(finished=True)
     context = {
-        'attempts': Attempt.objects.all(),
+        'attempts': attempts,
     }
     graph_data = {}
     groups = list(set([attempt.group for attempt in attempts]))
