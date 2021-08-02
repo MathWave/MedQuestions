@@ -202,7 +202,7 @@ def role_test(request):
             return HttpResponseRedirect('/role_test?n=' + str(n + 1))
         else:
             attempt = request.user.attempt
-            calc_role(attempt, reversed(FormAnswer.objects.filter(attempt=attempt, question__block__isnull=False)))
+            calc_role(attempt, FormAnswer.objects.filter(attempt=attempt, question__block__isnull=False))
             return HttpResponseRedirect('/end')
     return render(request, 'role_test.html', {
         'questions': Question.objects.filter(block=n),

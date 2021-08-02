@@ -3,12 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="9907e4d4-b688-4159-9aa5-1e6b29bfaa99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,7 +129,7 @@
       <workItem from="1627034946756" duration="222000" />
       <workItem from="1627036452942" duration="9449000" />
       <workItem from="1627212594285" duration="227000" />
-      <workItem from="1627825977961" duration="2121000" />
+      <workItem from="1627825977961" duration="2696000" />
     </task>
     <task id="LOCAL-00001" summary="haha">
       <created>1621264653660</created>
@@ -215,7 +229,28 @@
       <option name="project" value="LOCAL" />
       <updated>1627889723066</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="another version">
+      <created>1627889952753</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627889952753</updated>
+    </task>
+    <task id="LOCAL-00016" summary="another version">
+      <created>1627889984820</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627889984820</updated>
+    </task>
+    <task id="LOCAL-00017" summary="another version">
+      <created>1627890001287</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1627890001287</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,10 +272,10 @@
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621257118341" />
-    <state x="611" y="152" key="CommitChangelistDialog2" timestamp="1627889984435">
+    <state x="611" y="152" key="CommitChangelistDialog2" timestamp="1627890000895">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="611" y="152" key="CommitChangelistDialog2/0.0.2048.1280@0.0.2048.1280" timestamp="1627889984435" />
+    <state x="611" y="152" key="CommitChangelistDialog2/0.0.2048.1280@0.0.2048.1280" timestamp="1627890000895" />
     <state x="611" y="152" key="CommitChangelistDialog2/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621344334371" />
     <state width="2004" height="350" key="GridCell.Tab.0.bottom" timestamp="1627889907880">
       <screen x="0" y="0" width="2048" height="1280" />
@@ -302,10 +337,10 @@
     <state width="2004" height="436" key="GridCell.Tab.1.right/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621243762434" />
     <state width="2004" height="436" key="GridCell.Tab.1.right/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782395" />
     <state width="2004" height="436" key="GridCell.Tab.1.right/2048.25.1920.1055/0.25.2048.1164@0.25.2048.1164" timestamp="1621243200482" />
-    <state x="624" y="373" key="Vcs.Push.Dialog.v2" timestamp="1627889985527">
+    <state x="624" y="373" key="Vcs.Push.Dialog.v2" timestamp="1627890004444">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="624" y="373" key="Vcs.Push.Dialog.v2/0.0.2048.1280@0.0.2048.1280" timestamp="1627889985527" />
+    <state x="624" y="373" key="Vcs.Push.Dialog.v2/0.0.2048.1280@0.0.2048.1280" timestamp="1627890004444" />
     <state x="624" y="373" key="Vcs.Push.Dialog.v2/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621344336301" />
     <state x="677" y="381" width="694" height="518" key="find.popup" timestamp="1627045988615">
       <screen x="0" y="0" width="2048" height="1280" />
