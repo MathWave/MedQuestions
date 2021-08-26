@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9907e4d4-b688-4159-9aa5-1e6b29bfaa99" name="Default Changelist" comment="">
+    <list default="true" id="9907e4d4-b688-4159-9aa5-1e6b29bfaa99" name="Default Changelist" comment="bot added">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/docker-compose.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,21 +25,37 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="v2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,15 +87,59 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Main" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MedQuestions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MedQuestions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MedQuestions" type="Python.DjangoServer" factoryName="Django server">
       <module name="MedQuestions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +164,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.bot" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -129,7 +199,13 @@
       <workItem from="1627034946756" duration="222000" />
       <workItem from="1627036452942" duration="9449000" />
       <workItem from="1627212594285" duration="227000" />
-      <workItem from="1627825977961" duration="2696000" />
+      <workItem from="1627825977961" duration="4033000" />
+      <workItem from="1629709915648" duration="670000" />
+      <workItem from="1629718584424" duration="2391000" />
+      <workItem from="1629789033378" duration="23000" />
+      <workItem from="1629833690316" duration="4773000" />
+      <workItem from="1629875733684" duration="454000" />
+      <workItem from="1629961689522" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="haha">
       <created>1621264653660</created>
@@ -250,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627890001287</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="another version">
+      <created>1627890479869</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1627890479869</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bot added">
+      <created>1629719913644</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1629719913644</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,95 +350,55 @@
     <MESSAGE value="haha" />
     <MESSAGE value="results" />
     <MESSAGE value="another version" />
-    <option name="LAST_COMMIT_MESSAGE" value="another version" />
+    <MESSAGE value="bot added" />
+    <option name="LAST_COMMIT_MESSAGE" value="bot added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624044156043">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="488" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1624044156043" />
-    <state x="488" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621257101474" />
-    <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621257118341">
+    <state x="611" y="152" key="CommitChangelistDialog2" timestamp="1629719935605">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="743" y="437" key="#com.intellij.fileTypes.FileTypeChooser/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621257118341" />
-    <state x="611" y="152" key="CommitChangelistDialog2" timestamp="1627890000895">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state x="611" y="152" key="CommitChangelistDialog2/0.0.2048.1280@0.0.2048.1280" timestamp="1627890000895" />
+    <state x="611" y="152" key="CommitChangelistDialog2/0.0.2048.1280@0.0.2048.1280" timestamp="1629719935605" />
     <state x="611" y="152" key="CommitChangelistDialog2/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621344334371" />
-    <state width="2004" height="350" key="GridCell.Tab.0.bottom" timestamp="1627889907880">
+    <state width="2004" height="350" key="GridCell.Tab.0.bottom" timestamp="1629840241548">
+      <screen x="0" y="25" width="2048" height="1164" />
+    </state>
+    <state width="2004" height="350" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1629838413811" />
+    <state width="2004" height="350" key="GridCell.Tab.0.bottom/0.25.2048.1164@0.25.2048.1164" timestamp="1629840241548" />
+    <state width="2004" height="350" key="GridCell.Tab.0.center" timestamp="1629840241545">
+      <screen x="0" y="25" width="2048" height="1164" />
+    </state>
+    <state width="2004" height="350" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1629838413810" />
+    <state width="2004" height="350" key="GridCell.Tab.0.center/0.25.2048.1164@0.25.2048.1164" timestamp="1629840241545" />
+    <state width="2004" height="350" key="GridCell.Tab.0.left" timestamp="1629840241544">
+      <screen x="0" y="25" width="2048" height="1164" />
+    </state>
+    <state width="2004" height="350" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1629838413809" />
+    <state width="2004" height="350" key="GridCell.Tab.0.left/0.25.2048.1164@0.25.2048.1164" timestamp="1629840241544" />
+    <state width="2004" height="350" key="GridCell.Tab.0.right" timestamp="1629840241547">
+      <screen x="0" y="25" width="2048" height="1164" />
+    </state>
+    <state width="2004" height="350" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1629838413811" />
+    <state width="2004" height="350" key="GridCell.Tab.0.right/0.25.2048.1164@0.25.2048.1164" timestamp="1629840241547" />
+    <state x="624" y="373" key="Vcs.Push.Dialog.v2" timestamp="1629720576465">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state width="2004" height="350" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1627889907880" />
-    <state width="2004" height="352" key="GridCell.Tab.0.bottom/0.25.2048.1164@0.25.2048.1164" timestamp="1625945279079" />
-    <state width="2004" height="352" key="GridCell.Tab.0.bottom/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621266818370" />
-    <state width="2004" height="436" key="GridCell.Tab.0.bottom/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782393" />
-    <state width="2004" height="350" key="GridCell.Tab.0.center" timestamp="1627889907880">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state width="2004" height="350" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1627889907880" />
-    <state width="2004" height="352" key="GridCell.Tab.0.center/0.25.2048.1164@0.25.2048.1164" timestamp="1625945279078" />
-    <state width="2004" height="352" key="GridCell.Tab.0.center/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621266818369" />
-    <state width="2004" height="436" key="GridCell.Tab.0.center/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782392" />
-    <state width="2004" height="350" key="GridCell.Tab.0.left" timestamp="1627889907879">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state width="2004" height="350" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1627889907879" />
-    <state width="2004" height="352" key="GridCell.Tab.0.left/0.25.2048.1164@0.25.2048.1164" timestamp="1625945279077" />
-    <state width="2004" height="352" key="GridCell.Tab.0.left/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621266818369" />
-    <state width="2004" height="436" key="GridCell.Tab.0.left/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782391" />
-    <state width="2004" height="350" key="GridCell.Tab.0.right" timestamp="1627889907880">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state width="2004" height="350" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1627889907880" />
-    <state width="2004" height="352" key="GridCell.Tab.0.right/0.25.2048.1164@0.25.2048.1164" timestamp="1625945279079" />
-    <state width="2004" height="352" key="GridCell.Tab.0.right/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621266818370" />
-    <state width="2004" height="436" key="GridCell.Tab.0.right/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782393" />
-    <state width="2004" height="436" key="GridCell.Tab.1.bottom" timestamp="1621243762434">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state width="2004" height="436" key="GridCell.Tab.1.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1621227537821" />
-    <state width="2004" height="436" key="GridCell.Tab.1.bottom/0.25.2048.1164@0.25.2048.1164" timestamp="1621227516471" />
-    <state width="2004" height="436" key="GridCell.Tab.1.bottom/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621243762434" />
-    <state width="2004" height="436" key="GridCell.Tab.1.bottom/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782395" />
-    <state width="2004" height="436" key="GridCell.Tab.1.bottom/2048.25.1920.1055/0.25.2048.1164@0.25.2048.1164" timestamp="1621243200482" />
-    <state width="2004" height="436" key="GridCell.Tab.1.center" timestamp="1621243762433">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state width="2004" height="436" key="GridCell.Tab.1.center/0.0.2048.1280@0.0.2048.1280" timestamp="1621227537820" />
-    <state width="2004" height="436" key="GridCell.Tab.1.center/0.25.2048.1164@0.25.2048.1164" timestamp="1621227516470" />
-    <state width="2004" height="436" key="GridCell.Tab.1.center/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621243762433" />
-    <state width="2004" height="436" key="GridCell.Tab.1.center/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782394" />
-    <state width="2004" height="436" key="GridCell.Tab.1.center/2048.25.1920.1055/0.25.2048.1164@0.25.2048.1164" timestamp="1621243200481" />
-    <state width="2004" height="436" key="GridCell.Tab.1.left" timestamp="1621243762432">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state width="2004" height="436" key="GridCell.Tab.1.left/0.0.2048.1280@0.0.2048.1280" timestamp="1621227537819" />
-    <state width="2004" height="436" key="GridCell.Tab.1.left/0.25.2048.1164@0.25.2048.1164" timestamp="1621227516469" />
-    <state width="2004" height="436" key="GridCell.Tab.1.left/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621243762432" />
-    <state width="2004" height="436" key="GridCell.Tab.1.left/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782394" />
-    <state width="2004" height="436" key="GridCell.Tab.1.left/2048.25.1920.1055/0.25.2048.1164@0.25.2048.1164" timestamp="1621243200481" />
-    <state width="2004" height="436" key="GridCell.Tab.1.right" timestamp="1621243762434">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state width="2004" height="436" key="GridCell.Tab.1.right/0.0.2048.1280@0.0.2048.1280" timestamp="1621227537820" />
-    <state width="2004" height="436" key="GridCell.Tab.1.right/0.25.2048.1164@0.25.2048.1164" timestamp="1621227516471" />
-    <state width="2004" height="436" key="GridCell.Tab.1.right/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621243762434" />
-    <state width="2004" height="436" key="GridCell.Tab.1.right/2048.25.1920.1055/0.0.2048.1189@0.0.2048.1189" timestamp="1621109782395" />
-    <state width="2004" height="436" key="GridCell.Tab.1.right/2048.25.1920.1055/0.25.2048.1164@0.25.2048.1164" timestamp="1621243200482" />
-    <state x="624" y="373" key="Vcs.Push.Dialog.v2" timestamp="1627890004444">
-      <screen x="0" y="0" width="2048" height="1280" />
-    </state>
-    <state x="624" y="373" key="Vcs.Push.Dialog.v2/0.0.2048.1280@0.0.2048.1280" timestamp="1627890004444" />
+    <state x="624" y="373" key="Vcs.Push.Dialog.v2/0.0.2048.1280@0.0.2048.1280" timestamp="1629720576465" />
     <state x="624" y="373" key="Vcs.Push.Dialog.v2/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621344336301" />
     <state x="677" y="381" width="694" height="518" key="find.popup" timestamp="1627045988615">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="677" y="381" width="694" height="518" key="find.popup/0.0.2048.1280@0.0.2048.1280" timestamp="1627045988615" />
-    <state x="786" y="275" key="refactoring.ChangeSignatureDialog" timestamp="1621173246921">
+    <state x="689" y="291" key="search.everywhere.popup" timestamp="1629962224917">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="786" y="275" key="refactoring.ChangeSignatureDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1621173246921" />
+    <state x="689" y="291" key="search.everywhere.popup/0.0.2048.1280@0.0.2048.1280" timestamp="1629962224917" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MedQuestions$bot.coverage" NAME="bot Coverage Results" MODIFIED="1629719351905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
+    <SUITE FILE_PATH="coverage/MedQuestions$demo.coverage" NAME="demo Coverage Results" MODIFIED="1629838413803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
