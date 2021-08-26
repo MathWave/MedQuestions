@@ -1,0 +1,21 @@
+version: '3'
+services:
+  bot:
+    restart: always
+    image: web
+    volumes:
+      - .:/app
+    depends_on:
+      - web
+    command: python bot.py
+
+  web:
+    restart: always
+    image: web
+    build: .
+    volumes:
+      - .:/app
+    # enter ip address of your host here
+    ports:
+      - 80:80
+    command: python manage.py runserver 0.0.0.0:80

@@ -4,9 +4,8 @@
     <h3>Результаты тестирования</h3>
     <table class="table">
         <thead>
-            <th scope="col">Фамилия</th>
-            <th scope="col">Имя</th>
-            <th scope="col">Отчество</th>
+            <th scope="col">ФИО</th>
+            <th scope="col">Класс</th>
             <th scope="col">Группа</th>
             <th scope="col">Темперамент</th>
             <th scope="col">Роль</th>
@@ -14,11 +13,10 @@
         <tbody>
             {% for attempt in attempts %}
                 <tr>
-                    <td>{{ attempt.surname }}</td>
                     <td>{{ attempt.name }}</td>
-                    <td>{{ attempt.middle_name }}</td>
+                    <td>{{ attempt.grade }}</td>
                     <td>{{ attempt.group }}</td>
-                    <td>{{ attempt.temperament }}</td>
+                    <td>{{ attempt.temperament.name }}</td>
                     <td>{{ attempt.role }}</td>
                 </tr>
             {% endfor %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Правила заполнения теста на командные роли</h1>
+    <div style="background-color: rgba(0, 84, 166, 0.35); border-radius: 30px; width: 1196px; height: 364px;">
+        <p style="margin-top: 40px; margin-left: 40px; font-size: 30px; padding: 20px;">
+            В каждом из семи блоков данного опросника распределите 10 баллов между возможными ответами согласно тому, как вы полагаете они лучше всего подходят вашему собственному поведению. Если вы согласны с каким-либо утверждением на все 100%, вы можете отдать ему все 10 баллов. Проверьте, чтобы сумма всех баллов по каждому блоку равнялась 10. </p><br>
+    </div>
+    <button type="button" onclick="window.location.href='/role_test?n=1'" form="user_form" style="background-color: rgba(0, 84, 166, 0.59); border-radius: 30px; width: 200px; height: 50px; margin-left: 996px; margin-top: 20px;">Начать...</button>
+{% endblock %}

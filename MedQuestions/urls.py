@@ -23,5 +23,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('results', views.results),
     path('plot', views.plot),
+    path('temperament_result', views.temperament_result),
+    path('about_temperament', views.about_temperament),
+    path('about_role', views.about_role),
+    path('role_test', views.role_test),
+    path('end', views.end),
+    path('temperament_test', views.temperament_test),
     path('', views.main)
 ]
