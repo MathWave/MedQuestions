@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9907e4d4-b688-4159-9aa5-1e6b29bfaa99" name="Default Changelist" comment="bot added">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="9907e4d4-b688-4159-9aa5-1e6b29bfaa99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +202,7 @@
       <workItem from="1629789033378" duration="23000" />
       <workItem from="1629833690316" duration="4773000" />
       <workItem from="1629875733684" duration="454000" />
-      <workItem from="1629961689522" duration="545000" />
+      <workItem from="1629961689522" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="haha">
       <created>1621264653660</created>
@@ -340,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629719913644</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="bot added">
+      <created>1629962264010</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1629962264010</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,10 +362,10 @@
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
     <state x="488" y="299" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1624044156043" />
-    <state x="611" y="152" key="CommitChangelistDialog2" timestamp="1629719935605">
+    <state x="611" y="152" key="CommitChangelistDialog2" timestamp="1629962263579">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="611" y="152" key="CommitChangelistDialog2/0.0.2048.1280@0.0.2048.1280" timestamp="1629719935605" />
+    <state x="611" y="152" key="CommitChangelistDialog2/0.0.2048.1280@0.0.2048.1280" timestamp="1629962263579" />
     <state x="611" y="152" key="CommitChangelistDialog2/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621344334371" />
     <state width="2004" height="350" key="GridCell.Tab.0.bottom" timestamp="1629840241548">
       <screen x="0" y="25" width="2048" height="1164" />
@@ -383,10 +387,10 @@
     </state>
     <state width="2004" height="350" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1629838413811" />
     <state width="2004" height="350" key="GridCell.Tab.0.right/0.25.2048.1164@0.25.2048.1164" timestamp="1629840241547" />
-    <state x="624" y="373" key="Vcs.Push.Dialog.v2" timestamp="1629720576465">
+    <state x="624" y="373" key="Vcs.Push.Dialog.v2" timestamp="1629962265166">
       <screen x="0" y="0" width="2048" height="1280" />
     </state>
-    <state x="624" y="373" key="Vcs.Push.Dialog.v2/0.0.2048.1280@0.0.2048.1280" timestamp="1629720576465" />
+    <state x="624" y="373" key="Vcs.Push.Dialog.v2/0.0.2048.1280@0.0.2048.1280" timestamp="1629962265166" />
     <state x="624" y="373" key="Vcs.Push.Dialog.v2/2048.0.1920.1080/0.0.2048.1280@0.0.2048.1280" timestamp="1621344336301" />
     <state x="677" y="381" width="694" height="518" key="find.popup" timestamp="1627045988615">
       <screen x="0" y="0" width="2048" height="1280" />

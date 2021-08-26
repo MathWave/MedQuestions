@@ -16,4 +16,6 @@ services:
     volumes:
       - .:/app
     # enter ip address of your host here
+    ports:
+      - 80:80
     command: python manage.py runserver 82.146.46.25:80
